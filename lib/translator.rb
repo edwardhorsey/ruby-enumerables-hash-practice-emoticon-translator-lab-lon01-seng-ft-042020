@@ -39,19 +39,18 @@ library = {}
 library = load_library(path)
 if library[:get_emoticon][string]
     return library[:get_emoticon][string]
-else
-    return puts "Sorry, that emoticon was not found."
+  end
+return "Sorry, that emoticon was not found."
 end
-end
+
 
 def get_english_meaning(path, string)
 library = {}
 library = load_library(path)
 if library[:get_meaning][string]
     return library[:get_meaning][string]
-else
-    return "Sorry, that emoticon was not found."
-end
+  end
+return "Sorry, that emoticon was not found."
 end
 
 
