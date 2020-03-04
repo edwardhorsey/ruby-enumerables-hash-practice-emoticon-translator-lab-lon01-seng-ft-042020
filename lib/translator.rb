@@ -44,12 +44,15 @@ else
 end
 end
 
-def get_english_meaning(str, filepath)
+def get_english_meaning(path, string)
 library = load_library(filepath)
-
+library = load_library(path)
+if library[:get_emoticon][string]
+    return library[:get_emoticon][string]
+else
+    return puts "Sorry, not found."
 end
-
-
+end
 
 
 
