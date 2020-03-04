@@ -45,7 +45,7 @@ end
 end
 
 def get_english_meaning(path, string)
-library = load_library(filepath)
+library = {}
 library = load_library(path)
 if library[:get_emoticon][string]
     return library[:get_emoticon][string]
