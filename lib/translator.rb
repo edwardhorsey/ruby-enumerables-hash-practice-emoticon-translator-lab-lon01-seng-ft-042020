@@ -40,7 +40,7 @@ library = load_library(path)
 if library[:get_emoticon][string]
     return library[:get_emoticon][string]
   end
-return "Sorry, that emoticon was not found."
+return "Sorry, that emoticon was not found"
 end
 
 
@@ -50,7 +50,7 @@ library = load_library(path)
 if library[:get_meaning][string]
     return library[:get_meaning][string]
   end
-return "Sorry, that emoticon was not found."
+return "Sorry, that emoticon was not found"
 end
 
 
